@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 #Take in variable
-#Hardcode for now
-inString = "Zdrxzerkzfe zj dfiv zdgfikrek kyre Befncvuxv"
+inString = input("Please enter a cipher string:\n>> ")
 
 #Store number of attempts to solve
 attempts = 0
@@ -34,7 +33,7 @@ while not solved:
         outStringAs.append(i)
     
     #Prompt and verify the correct string is given.
-    res = input("Is it \""+outString+"\"?")
+    res = input("Is it \""+outString+"\"?\n>> ")
     attempts += 1
     if res == 'y' or res == 'Y':
         solved = 1
