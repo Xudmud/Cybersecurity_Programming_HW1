@@ -1,7 +1,7 @@
 # Cybersecurity_Programming_HW1
 Homework 1 for CSCI 4742 Cybersecurity Programming and Analysis  
 
-**Assignment Description**
+**Assignment Description**  
 1- Learn about the Caesar Cipher.  
 2- Learn about strategies to brute-force a Caesar ciphertext without having the key.  
 3- Write a program in Python that receives an input ciphertext and produces its plaintext.   
