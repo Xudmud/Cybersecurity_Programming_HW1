@@ -1,0 +1,13 @@
+22 August 2019: Version 1.1
+-Added character analysis to give suggestions based on frequency rather than a 
+brute-force decrement. This reduces the number of attempts to convert the
+cipher "Zdrxzerkzfe zj dfiv zdgfikrek kyre Befncvuxv" to "Imagination is more 
+important than Knowledge" from 17 to 4.
+
+22 August 2019: Version 1.1.1
+-Changed how characters are detected to avoid modifying non-alphabetic characters.
+
+26 August 2019: Version 1.1.2
+-Added variable for if a letter was upper or lowercase, to fix a bug where a
+character's case may inadvertantly change if the offset left it as a valid
+ASCII letter.
